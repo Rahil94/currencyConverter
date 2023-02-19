@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Converter by Max</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="insideHeader">
+            <div class="logo">
+                <img src="logo.svg" alt="">
+            </div>
+            <div class="listOfTabs">
+                <a class="clickedTab" href="#">Банк</a>
+                <a href="#">Бизнес</a>
+                <a href="#">Инвестиции</a>
+                <a href="#">Страхование</a>
+                <a href="#">Мобайл</a>
+                <a href="#">Путешествие</a>
+                <a href="#">Развлечение</a>
+            </div>
+            <div class="enterButton">
+                <button>Войти</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="insideMain">
+            <h1>Конвертер валют онлайн</h1>
+            <div class="converter">
+                <div class="leftSide">
+                    <p>У меня есть</p>
+                    <div class="valuesLeft">
+                        <button class="baseCurrency clicked">RUB</button>
+                        <button class="baseCurrency">USD</button>
+                        <button class="baseCurrency">EUR</button>
+                        <button class="baseCurrency">AZN</button>
+                    </div>
+                    <div class="amount">
+                        <input class="entered" id="input" type="number" value="5000" />
+                        <p class="rateL">1 RUB = 1.0000 RUB</p>
+                    </div>
+                </div>
+
+                <div class="rightSide">
+                    <p>Хочу приобрести</p>
+                    <div class="valuesRight">
+                        <button class="targetCurrency clicked">RUB</button>
+                        <button class="targetCurrency">USD</button>
+                        <button class="targetCurrency">EUR</button>
+                        <button class="targetCurrency">AZN</button>
+                    </div>
+                    <div class="amount">
+                        <input class="result" id="output" value='5000' disabled />
+                        <p class="rateR">1 RUB = 1.0000 RUB</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

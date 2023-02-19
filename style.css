@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  background: black;
+}
+
+.insideHeader {
+  width: 950px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.listOfTabs {
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: darkslategrey;
+  text-decoration-line: none;
+  font-size: 11px;
+}
+
+a.clickedTab {
+  color: whitesmoke;
+}
+
+.enterButton button {
+  border: none;
+  width: 58px;
+  height: 33px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+
+.enterButton button:hover {
+  cursor: pointer;
+}
+
+
+.insideMain {
+  width: 650px;
+  margin: auto;
+}
+
+
+
+.converter {
+  width: 640px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.valuesLeft,
+.valuesRight {
+  height: 30px;
+  width: 260px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+
+.amount {
+  margin-top: 30px;
+  width: 260px;
+  height: 102px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+
+.baseCurrency,
+.targetCurrency {
+  width: 80px;
+  border-right: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  background: none;
+}
+button {
+  border: none;
+}
+
+.clicked {
+  background-color: darkolivegreen;
+  color: whitesmoke;
+}
+
+input {
+  width: 245px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 36px;
+  border: none;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.result {
+  width: 245px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 36px;
+}
+
+.rateL {
+  margin-top: 20px;
+  margin-left: 16px;
+  font-size: 12px;
+}
+
+.rateR {
+  margin-top: 20px;
+  margin-left: 16px;
+  font-size: 12px;
+}
